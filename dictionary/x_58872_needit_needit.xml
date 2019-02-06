@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Nuevo campo 1" max_length="40" name="nuevo_campo_1" type="integer"/>
+        <element label="Nuevo campo 2" max_length="40" name="nuevo_campo_2" type="integer"/>
+        <element label="Cuando se necesite" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="Requerido por" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+    </element>
+</database>
